@@ -26,7 +26,7 @@ class ContentDownloader: ContentProtocol {
   
   // maximium cache
   
-  var maxCapacity: Double = 1.0 // MegaBytes
+  var maxCapacity: Double = 10.0 // Megabyte
   
   // find a item that seldom be used
   
