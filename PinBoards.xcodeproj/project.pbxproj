@@ -19,7 +19,6 @@
 		EBF5737D1ED45BA300BDC1C9 /* PinBoardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF5737C1ED45BA300BDC1C9 /* PinBoardsUITests.swift */; };
 		EBF573901ED527EF00BDC1C9 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF5738F1ED527EF00BDC1C9 /* String+Ext.swift */; };
 		EBF573921ED5282400BDC1C9 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF573911ED5282400BDC1C9 /* View+Ext.swift */; };
-		EBF573A21ED5354F00BDC1C9 /* Image+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF573A11ED5354F00BDC1C9 /* Image+Ext.swift */; };
 		EBF573A41ED536F200BDC1C9 /* PinPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF573A31ED536F200BDC1C9 /* PinPhotoCell.swift */; };
 		EBF573A61ED53A8A00BDC1C9 /* CornerRadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF573A51ED53A8A00BDC1C9 /* CornerRadiusView.swift */; };
 		EBF573AC1ED5C31200BDC1C9 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF573AB1ED5C31200BDC1C9 /* Cache.swift */; };
@@ -68,7 +67,6 @@
 		EBF5738F1ED527EF00BDC1C9 /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		EBF573911ED5282400BDC1C9 /* View+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 		EBF573931ED5288F00BDC1C9 /* PinBoards-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PinBoards-Bridging-Header.h"; sourceTree = "<group>"; };
-		EBF573A11ED5354F00BDC1C9 /* Image+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+Ext.swift"; sourceTree = "<group>"; };
 		EBF573A31ED536F200BDC1C9 /* PinPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinPhotoCell.swift; sourceTree = "<group>"; };
 		EBF573A51ED53A8A00BDC1C9 /* CornerRadiusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerRadiusView.swift; sourceTree = "<group>"; };
 		EBF573AB1ED5C31200BDC1C9 /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
@@ -202,7 +200,6 @@
 			children = (
 				EBF5738F1ED527EF00BDC1C9 /* String+Ext.swift */,
 				EBF573911ED5282400BDC1C9 /* View+Ext.swift */,
-				EBF573A11ED5354F00BDC1C9 /* Image+Ext.swift */,
 				EBF573AF1ED5CC1400BDC1C9 /* Array+Ext.swift */,
 			);
 			path = category;
@@ -371,7 +368,6 @@
 				EBF573B21ED5D43700BDC1C9 /* NetworkManager.swift in Sources */,
 				EB2FD1131ED72C810007BA86 /* PopViewAnimator.swift in Sources */,
 				EBF573901ED527EF00BDC1C9 /* String+Ext.swift in Sources */,
-				EBF573A21ED5354F00BDC1C9 /* Image+Ext.swift in Sources */,
 				EBF573A61ED53A8A00BDC1C9 /* CornerRadiusView.swift in Sources */,
 				EBF573AC1ED5C31200BDC1C9 /* Cache.swift in Sources */,
 				EBF5735D1ED45BA300BDC1C9 /* AppDelegate.swift in Sources */,
