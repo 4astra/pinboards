@@ -57,7 +57,9 @@ class ContentDownloader: ContentProtocol {
   func takeCapacity() -> Double {
     var sum: Double = 0.0
     for item in caches {
-      sum =  sum + Double(item.data!.count)
+      if item.data?.count != nil {
+       sum =  sum + Double(item.data!.count)
+      }
     }
     return (sum / 1024.0 / 1024.0)
   }
@@ -131,6 +133,10 @@ class ContentDownloader: ContentProtocol {
       NetworkManager.download(from: url) { [weak self] (data) in
         DispatchQueue.main.async {
           guard let strong = self else {
+            completed(nil)
+            return
+          }
+          guard data != nil else {
             completed(nil)
             return
           }
